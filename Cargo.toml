@@ -1,5 +1,5 @@
 [package]
-name = "montclair_observability"
+name = "montclair_tracing"
 version = "0.1.0"
 edition = "2024"
 
@@ -20,7 +20,7 @@ tracing-subscriber = { version = "0.3.23", features = ["env-filter", "json"] }
 url = "2.5.8"
 
 [lib]
-name = "montclair_observability"
+name = "montclair_tracing"
 path = "src/lib.rs"
 
 [[bin]]

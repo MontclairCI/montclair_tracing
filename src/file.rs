@@ -1,6 +1,5 @@
 use std::path::PathBuf;
 use time::OffsetDateTime;
-use time::format_description;
 use time::macros::format_description;
 use tokio::io::AsyncWriteExt;
 use tokio::sync::mpsc;
